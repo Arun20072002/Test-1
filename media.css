@@ -11,10 +11,10 @@
 						flex-wrap:wrap;
 					}
 					.col{
-						width:50%;
+						width:100%;
 					}
 					.col-1{
-					width:50%;
+					width:100%;
 					position:absolute;
 					bottom:5%;
 					right:5%;
