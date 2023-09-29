@@ -1,0 +1,102 @@
+	
+/* mobile */
+@media(min-width:320px){
+					.container{
+						width:95%;
+						margin:auto;
+						
+					}
+					.row{
+						display:flex;
+						flex-wrap:wrap;
+					}
+					.col{
+						width:50%;
+					}
+					.col-1{
+					width:50%;
+					position:absolute;
+					bottom:5%;
+					right:5%;
+					
+					}
+			.circle{
+				height:100px;
+				width:100px;
+				border-radius:50px;
+				background-color:#548a7a;
+				position:absolute;
+				top:-20%;
+				right:-20%;
+				
+			}
+					
+						}
+					
+/* i-pad*/
+
+@media(min-width:760px){
+					.container{
+						width:90%;
+						margin:auto;
+					}
+					.col{
+						width:50%;
+					}
+					.col-1{
+					width:50%;
+					position:absolute;
+					bottom:30%;
+					left:0%;
+					}
+					.row{
+						display:flex;
+						
+					}
+					.circle{
+				height:100px;
+				width:100px;
+				border-radius:50px;
+				background-color:#548a7a;
+				position:absolute;
+				top:-10%;
+				right:-10%;
+				
+			}
+					
+					
+}	
+			
+
+/* laptop*/
+
+@media(min-width:960px){
+					.container{
+						width:80%;
+						margin:auto;
+					}
+					.col{
+						width:60%;
+					}
+					.col-1{
+					width:40%;
+					position:absolute;
+					bottom:0%;
+					right:0%;
+					
+					}
+					.row{
+						display:flex;
+						flex-wrap:nowrap;
+					}
+			.circle{
+				height:100px;
+				width:100px;
+				border-radius:50px;
+				background-color:#548a7a;
+				position:absolute;
+				top:-10%;
+				right:-10%;
+				
+			}
+}
